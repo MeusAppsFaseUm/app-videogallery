@@ -1,0 +1,70 @@
+name: video_gallery_app
+description: Video Gallery App com Flutter
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # 📁 Gerenciamento de arquivos e permissões
+  permission_handler: ^11.3.1
+  device_info_plus: ^10.1.0
+  path: ^1.8.3
+
+  # 🎬 Para trabalhar com vídeos
+  video_player: ^2.8.2
+
+  # 📱 Galeria de mídia otimizada
+  photo_manager: ^3.0.0
+
+  # 🔧 Utilitários
+  path_provider: ^2.1.2
+
+  # 📂 Abertura de arquivos
+  open_file: ^3.3.2
+
+  # ✅ Para ícone e splash screen
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.5
+
+
+    # ✅ NOVAS DEPENDÊNCIAS
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Configuração de assets
+  assets:
+    - assets/icons/
+    - assets/images/
+
+# ✅ Configuração do ícone do app
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+  app_name: "Video Gallery"
+
+# ✅ Configuração da splash screen
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/images/splash_screen.png"
+  android_12:
+    image: "assets/images/splash_screen.png"
+    color: "#000000"
