@@ -1,6 +1,6 @@
 # video_gallery_app
 
-A new Flutter project.
+app de galeria para videos.
 
 ## Getting Started
 
